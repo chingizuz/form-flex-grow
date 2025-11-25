@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+        <h1 class="title">Contact Form</h1>
+        <p class="lead">Please fill in your information below.</p>
+
+        <form action="https://echo.htmlacademy.ru" class="form">
+
+            <div class="form-left">
+                <label for="fullname" class="label">Your Name</label>
+                <input name="fullname" id="fullname" type="text" class="field" placeholder="Enter your name" required>
+
+                <label for="phone" class="label">Phone Number</label>
+                <input name="phone" id="phone" type="tel" class="field" placeholder="Enter your phone" required>
+
+                <button class="button">Submit</button>
+            </div>
+
+            <div class="form-right">
+                <label for="opinion" class="label">Your Message</label>
+                <textarea class="field area" name="opinion" id="opinion" placeholder="Write your opinion"></textarea>
+            </div>
+
+        </form>
+
+    </div>
+</body>
+</html>
