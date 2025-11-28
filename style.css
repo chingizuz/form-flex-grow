@@ -11,6 +11,10 @@ body {
     color: #333;
 }
 
+input, textarea, button {
+    font-family: inherit;
+}
+
 /* CONTAINER */
 .container {
     max-width: 1200px;
@@ -81,8 +85,9 @@ body {
 }
 
 .area {
-    height: 200px;
     resize: none;
+    flex-grow: 1;
+    margin-bottom: 0;
 }
 
 /* BUTTON */
